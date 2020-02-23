@@ -213,7 +213,7 @@ int main(void)
 					"The integration time equals the high period of ST plus 48 CLK pulses"
 		
 					minimum start pulse high period: 6/f(CLK) = 6 / 250 kHz = 24 us => counter value: 730
-					24 us / 730 = 32 ns integration time resolution
+					3.3 ms / 100000 = 33 ns integration time resolution
 					min. integration time: 24 us + 48/250 kHz = 216 us
 					max. integration time: MAX_INT*32 ns + 48/250 kHz = 68,7 s */
 		
