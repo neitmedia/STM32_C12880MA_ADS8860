@@ -212,8 +212,8 @@ int main(void)
 					from the C12880MA datasheet:
 					"The integration time equals the high period of ST plus 48 CLK pulses"
 		
-					minimum start pulse high period: 6/f(CLK) = 6 / 250 kHz = 24 us => counter value: 730
-					3.3 ms / 100000 = 33 ns integration time resolution
+					minimum start pulse high period: 6/f(CLK) = 6 / 250 kHz = 24 us => counter value: 720
+					1/(90 MHz/3) = 33 ns integration time resolution
 					min. integration time: 24 us + 48/250 kHz = 216 us
 					max. integration time: MAX_uint32_t*33 ns + 48/250 kHz = 4294967295*32 ns + 48/250 kHz = 141.7 s */
 		
