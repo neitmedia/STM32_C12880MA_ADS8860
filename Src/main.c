@@ -215,7 +215,7 @@ int main(void)
 					minimum start pulse high period: 6/f(CLK) = 6 / 250 kHz = 24 us => counter value: 720
 					1/(90 MHz/3) = 33 ns integration time resolution
 					min. integration time: 24 us + 48/250 kHz = 216 us
-					max. integration time: MAX_uint32_t*33 ns + 48/250 kHz = 4294967295*32 ns + 48/250 kHz = 141.7 s */
+					max. integration time: MAX_uint32_t*33 ns + 48/250 kHz = 4294967295*33 ns + 48/250 kHz = 141.7 s */
 		
 		// Declare and initialize variable rxValue and byte array rx_buff;
 		uint32_t rxValue = 0;
